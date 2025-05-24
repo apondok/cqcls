@@ -1,5 +1,7 @@
 # **CQCLS**
+
 **Compressed Quantum-Classical Logic Simulator (CQCLS) - In Progress**
+
 *A Systems Engineering Approach Inspired by the Apollo Guidance Computer*
 ---
 ## **Project Summary: Compressed Qubit NOR Gate Simulator Inspired by AGC Architecture**
