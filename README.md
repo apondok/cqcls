@@ -5,7 +5,7 @@ Compressed Quantum-Classical Logic Simulator - In Progress
 
 ### **Overview**
 
-This project proposes a quantum logic simulation model based on constrained quantum input states, derived from the Apollo Guidance Computer (AGC)’s exclusive use of 3-input NOR gates. By applying structural constraints on quantum inputs, I reduce dimensional requirements and simulate classical NOR logic in a minimal quantum system. This work builds on the concept of constrained quantum logic simulation, drawing thematic parallels to Anand et al.'s (2022) exploration of classically simulatable quantum circuits. However, it focuses specifically on logic gate-level compression using NOR-only constraints inspired by historical AGC architecture.
+This project presents a systems engineering approach to simulating classical NOR-based control logic using compressed quantum logic states. Inspired by the Apollo Guidance Computer’s NOR-only architecture, the model constrains qubit input states to minimize dimensional complexity while preserving logical expressiveness. The result is a hybrid framework that enables efficient quantum simulation of classical logic networks within tightly optimized qubit constraints. This work builds on the concept of constrained quantum logic simulation, drawing thematic parallels to Anand et al.'s (2022) exploration of classically simulatable quantum circuits. However, it focuses specifically on logic gate-level compression using NOR-only constraints inspired by historical AGC architecture.
 
 ---
 
@@ -21,7 +21,7 @@ This project proposes a quantum logic simulation model based on constrained quan
 
 ---
 
-### **Simulation Output Logic Table**
+### **ChatGPT Simulation Output Logic Table**
 
 | A1,B1 | A2,B2 | A3,B3 | Y\_A (NOR) |
 | ----- | ----- | ----- | ---------- |
@@ -38,7 +38,7 @@ This confirms the expected NOR behavior: the output is 1 only when **all inputs 
 
 ---
 
-### **Contributions**
+### **ChatGPT Contributions**
 
 * Introduced a logic constraint model that maps classical NOR gate design onto quantum-compressed systems
 * Demonstrated how symmetric qubit pairing and NOR-only logic closure reduce quantum simulation dimensionality
@@ -47,7 +47,7 @@ This confirms the expected NOR behavior: the output is 1 only when **all inputs 
 
 ---
 
-### **Next Steps**
+### **My Next Steps**
 
 1. **Implement Python Logic Simulator**
 
@@ -75,6 +75,41 @@ This confirms the expected NOR behavior: the output is 1 only when **all inputs 
 * Compact quantum circuit emulators for classical systems
 * Historical-computing-inspired quantum architecture models
 * Logic compression and dimensionality reduction techniques in hybrid computing
+
+---
+
+## Systems Engineering Approach
+
+### ✅ 1. **Architectural Thinking**
+
+I will need to take a legacy computing architecture (AGC’s NOR gate logic) and:
+
+* Abstract its **logical structure**
+* Apply **constraint-driven design**
+* Reconstruct it in a quantum logic framework
+
+**system-level design thinking**
+
+---
+
+### ✅ 2. **Dimensionality & Optimization**
+
+My next approach:
+
+* Reduce logical complexity (6 inputs → 3 qubits)
+* Minimize state space (64 → 8)
+* Use input symmetry and functional decomposition
+
+This will need to be considered for classic **systems-level optimization**, not just quantum math. 
+I hope I can design for **resource-efficiency**, which is **central to systems engineering**.
+
+---
+
+### ✅ 3. **Integration-Friendly Logic Compression**
+
+* Anchor my method in a real-world control system which is the AGC Simulator
+* Build a bridge to quantum computation via logic gate compression
+* Target a hybrid, **implementable** system — not just academic proofs
 
 ---
 
