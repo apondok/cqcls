@@ -78,7 +78,7 @@ This confirms the expected NOR behavior: the output is 1 only when **all inputs 
 
 ---
 
-### **Reference**
+### **References**
 
 * AGC Simulator, https://www.ibiblio.org/apollo/#gsc.tab=0
 * OpenAI, chatgpt.com
