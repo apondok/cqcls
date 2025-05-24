@@ -1,5 +1,6 @@
-# cqcls
-Compressed Quantum-Classical Logic Simulator - In Progress
+# **CQCLS**
+**Compressed Quantum-Classical Logic Simulator (CQCLS) - In Progress**
+*A Systems Engineering Approach Inspired by the Apollo Guidance Computer*
 ---
 ## **Project Summary: Compressed Qubit NOR Gate Simulator Inspired by AGC Architecture**
 
@@ -21,7 +22,7 @@ This project presents a systems engineering approach to simulating classical NOR
 
 ---
 
-### **ChatGPT Simulation Output Logic Table**
+### **Research Simulation Output Logic Table**
 
 | A1,B1 | A2,B2 | A3,B3 | Y\_A (NOR) |
 | ----- | ----- | ----- | ---------- |
@@ -34,20 +35,24 @@ This project presents a systems engineering approach to simulating classical NOR
 | (1,1) | (1,1) | (0,0) | 0          |
 | (1,1) | (1,1) | (1,1) | 0          |
 
-This confirms the expected NOR behavior: the output is 1 only when **all inputs are 0**.
+This table illustrates the compressed logic state space using only 3 qubits. 
+The NOR gate outputs 1 only when all three input bits are 0 — the only condition where classical NOR logic evaluates to true.
+Supported by ChatGPT.
 
 ---
 
-### **ChatGPT Contributions**
+### **Research Contributions**
 
 * Introduced a logic constraint model that maps classical NOR gate design onto quantum-compressed systems
 * Demonstrated how symmetric qubit pairing and NOR-only logic closure reduce quantum simulation dimensionality
 * Showed how a 3-qubit space suffices to simulate a full 3-input NOR logic system under these constraints
 * Outlined a path to extend classical AGC architecture concepts into efficient quantum circuit design
 
+Supported by ChatGPT.
+
 ---
 
-### **My Next Steps**
+### **Roadmap**
 
 1. **Implement Python Logic Simulator**
 
@@ -80,7 +85,7 @@ This confirms the expected NOR behavior: the output is 1 only when **all inputs 
 
 ## Systems Engineering Approach
 
-### ✅ 1. **Architectural Thinking**
+### 1. **Architectural Thinking**
 
 I will need to take a legacy computing architecture (AGC’s NOR gate logic) and:
 
@@ -92,7 +97,7 @@ I will need to take a legacy computing architecture (AGC’s NOR gate logic) and
 
 ---
 
-### ✅ 2. **Dimensionality & Optimization**
+### 2. **Dimensionality & Optimization**
 
 My next approach:
 
@@ -105,7 +110,7 @@ I hope I can design for **resource-efficiency**, which is **central to systems e
 
 ---
 
-### ✅ 3. **Integration-Friendly Logic Compression**
+### 3. **Integration-Friendly Logic Compression**
 
 * Anchor my method in a real-world control system which is the AGC Simulator
 * Build a bridge to quantum computation via logic gate compression
@@ -117,4 +122,13 @@ I hope I can design for **resource-efficiency**, which is **central to systems e
 
 * AGC Simulator, https://www.ibiblio.org/apollo/#gsc.tab=0
 * Anand, A., Kottmann, J. S., & Aspuru-Guzik, A. (2022). Quantum compression with classically simulatable circuits. arXiv preprint arXiv:2207.02961.
-* OpenAI, chatgpt.com
+* OpenAI. (2023). ChatGPT [Large language model]. https://chat.openai.com
+
+---
+
+### **Contribute**
+
+This project welcomes input from systems engineers, quantum computing researchers, and historians of computation. 
+If you're interested in expanding CQCLS or applying it to other historical logic systems, feel free to open an issue or submit a pull request.
+
+
