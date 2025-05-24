@@ -5,7 +5,7 @@ Compressed Quantum-Classical Logic Simulator - In Progress
 
 ### **Overview**
 
-This project proposes a quantum logic simulation model based on constrained quantum input states, derived from the Apollo Guidance Computer (AGC)’s exclusive use of 3-input NOR gates. By applying structural constraints on quantum inputs, I reduce dimensional requirements and simulate classical NOR logic in a minimal quantum system.
+This project proposes a quantum logic simulation model based on constrained quantum input states, derived from the Apollo Guidance Computer (AGC)’s exclusive use of 3-input NOR gates. By applying structural constraints on quantum inputs, I reduce dimensional requirements and simulate classical NOR logic in a minimal quantum system. This work builds on the concept of constrained quantum logic simulation, drawing thematic parallels to Anand et al.'s (2022) exploration of classically simulatable quantum circuits. However, it focuses specifically on logic gate-level compression using NOR-only constraints inspired by historical AGC architecture.
 
 ---
 
@@ -81,4 +81,5 @@ This confirms the expected NOR behavior: the output is 1 only when **all inputs 
 ### **References**
 
 * AGC Simulator, https://www.ibiblio.org/apollo/#gsc.tab=0
+* Anand, A., Kottmann, J. S., & Aspuru-Guzik, A. (2022). Quantum compression with classically simulatable circuits. arXiv preprint arXiv:2207.02961.
 * OpenAI, chatgpt.com
